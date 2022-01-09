@@ -178,6 +178,7 @@
 				71ED1B71278A0CDF00415B9A /* Sources */,
 				71ED1B72278A0CDF00415B9A /* Frameworks */,
 				71ED1B73278A0CDF00415B9A /* Resources */,
+				14BBDC6423E10996798AC241 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +216,7 @@
 				71ED1B99278A0CE100415B9A /* Sources */,
 				71ED1B9A278A0CE100415B9A /* Frameworks */,
 				71ED1B9B278A0CE100415B9A /* Resources */,
+				74225F7D724121C08ED05556 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,6 +297,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		14BBDC6423E10996798AC241 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74225F7D724121C08ED05556 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		80BC464F402C05F0AED298E2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
