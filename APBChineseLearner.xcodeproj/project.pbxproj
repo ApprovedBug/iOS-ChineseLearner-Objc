@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		71ED1B7A278A0CDF00415B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ED1B79278A0CDF00415B9A /* AppDelegate.m */; };
-		71ED1B7D278A0CDF00415B9A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ED1B7C278A0CDF00415B9A /* SceneDelegate.m */; };
-		71ED1B80278A0CDF00415B9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ED1B7F278A0CDF00415B9A /* ViewController.m */; };
-		71ED1B83278A0CDF00415B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71ED1B81278A0CDF00415B9A /* Main.storyboard */; };
 		71ED1B86278A0CDF00415B9A /* APBChineseLearner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71ED1B84278A0CDF00415B9A /* APBChineseLearner.xcdatamodeld */; };
 		71ED1B88278A0CE100415B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71ED1B87278A0CE100415B9A /* Assets.xcassets */; };
 		71ED1B8B278A0CE100415B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71ED1B89278A0CE100415B9A /* LaunchScreen.storyboard */; };
@@ -41,11 +38,6 @@
 		71ED1B75278A0CDF00415B9A /* APBChineseLearner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APBChineseLearner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71ED1B78278A0CDF00415B9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71ED1B79278A0CDF00415B9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		71ED1B7B278A0CDF00415B9A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		71ED1B7C278A0CDF00415B9A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		71ED1B7E278A0CDF00415B9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		71ED1B7F278A0CDF00415B9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		71ED1B82278A0CDF00415B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71ED1B85278A0CDF00415B9A /* APBChineseLearner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = APBChineseLearner.xcdatamodel; sourceTree = "<group>"; };
 		71ED1B87278A0CE100415B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71ED1B8A278A0CE100415B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -108,11 +100,6 @@
 			children = (
 				71ED1B78278A0CDF00415B9A /* AppDelegate.h */,
 				71ED1B79278A0CDF00415B9A /* AppDelegate.m */,
-				71ED1B7B278A0CDF00415B9A /* SceneDelegate.h */,
-				71ED1B7C278A0CDF00415B9A /* SceneDelegate.m */,
-				71ED1B7E278A0CDF00415B9A /* ViewController.h */,
-				71ED1B7F278A0CDF00415B9A /* ViewController.m */,
-				71ED1B81278A0CDF00415B9A /* Main.storyboard */,
 				71ED1B87278A0CE100415B9A /* Assets.xcassets */,
 				71ED1B89278A0CE100415B9A /* LaunchScreen.storyboard */,
 				71ED1B8C278A0CE100415B9A /* Info.plist */,
@@ -244,7 +231,6 @@
 			files = (
 				71ED1B8B278A0CE100415B9A /* LaunchScreen.storyboard in Resources */,
 				71ED1B88278A0CE100415B9A /* Assets.xcassets in Resources */,
-				71ED1B83278A0CDF00415B9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,10 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				71ED1B8E278A0CE100415B9A /* main.m in Sources */,
-				71ED1B80278A0CDF00415B9A /* ViewController.m in Sources */,
 				71ED1B86278A0CDF00415B9A /* APBChineseLearner.xcdatamodeld in Sources */,
 				71ED1B7A278A0CDF00415B9A /* AppDelegate.m in Sources */,
-				71ED1B7D278A0CDF00415B9A /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,14 +294,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		71ED1B81278A0CDF00415B9A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71ED1B82278A0CDF00415B9A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		71ED1B89278A0CE100415B9A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -453,7 +429,6 @@
 				INFOPLIST_FILE = APBChineseLearner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,7 +455,6 @@
 				INFOPLIST_FILE = APBChineseLearner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
