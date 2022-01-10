@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		33BFCABB71276BAA1C5F780B /* Pods_APBChineseLearner_APBChineseLearnerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9322A027EBF758260363257 /* Pods_APBChineseLearner_APBChineseLearnerUITests.framework */; };
 		3C6619593986CBFC021464DD /* Pods_APBChineseLearner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BF91D655447A2970ED2BCA /* Pods_APBChineseLearner.framework */; };
+		71EC7399278AF17D00E7FEF9 /* APBDictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EC7398278AF17D00E7FEF9 /* APBDictionaryViewController.m */; };
+		71EC739E278AF1C400E7FEF9 /* APBDictionaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EC739D278AF1C400E7FEF9 /* APBDictionaryView.m */; };
 		71ED1B7A278A0CDF00415B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ED1B79278A0CDF00415B9A /* AppDelegate.m */; };
 		71ED1B86278A0CDF00415B9A /* APBChineseLearner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71ED1B84278A0CDF00415B9A /* APBChineseLearner.xcdatamodeld */; };
 		71ED1B88278A0CE100415B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71ED1B87278A0CE100415B9A /* Assets.xcassets */; };
@@ -41,6 +43,10 @@
 		0F1F4587026D4BD936C12F9C /* Pods-APBChineseLearner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBChineseLearner.release.xcconfig"; path = "Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner.release.xcconfig"; sourceTree = "<group>"; };
 		59BF91D655447A2970ED2BCA /* Pods_APBChineseLearner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APBChineseLearner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6126AAE75C189B765DDFCD30 /* Pods-APBChineseLearner-APBChineseLearnerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBChineseLearner-APBChineseLearnerUITests.debug.xcconfig"; path = "Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		71EC7397278AF17D00E7FEF9 /* APBDictionaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APBDictionaryViewController.h; sourceTree = "<group>"; };
+		71EC7398278AF17D00E7FEF9 /* APBDictionaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APBDictionaryViewController.m; sourceTree = "<group>"; };
+		71EC739C278AF1C400E7FEF9 /* APBDictionaryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APBDictionaryView.h; sourceTree = "<group>"; };
+		71EC739D278AF1C400E7FEF9 /* APBDictionaryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APBDictionaryView.m; sourceTree = "<group>"; };
 		71ED1B75278A0CDF00415B9A /* APBChineseLearner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APBChineseLearner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71ED1B78278A0CDF00415B9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71ED1B79278A0CDF00415B9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,8 +106,46 @@
 				B2043824675D3F537F4CAF26 /* Pods-APBChineseLearnerTests.debug.xcconfig */,
 				D15F8980A5A9ED51AF198FCC /* Pods-APBChineseLearnerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		71EC7393278AEF3300E7FEF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71ED1B87278A0CE100415B9A /* Assets.xcassets */,
+				71ED1B89278A0CE100415B9A /* LaunchScreen.storyboard */,
+				71ED1B8C278A0CE100415B9A /* Info.plist */,
+				71ED1B8D278A0CE100415B9A /* main.m */,
+				71ED1B84278A0CDF00415B9A /* APBChineseLearner.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71EC7396278AEF9100E7FEF9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				71EC739A278AF1AA00E7FEF9 /* Dictionary */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		71EC739A278AF1AA00E7FEF9 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				71EC739B278AF1B400E7FEF9 /* Views */,
+				71EC7397278AF17D00E7FEF9 /* APBDictionaryViewController.h */,
+				71EC7398278AF17D00E7FEF9 /* APBDictionaryViewController.m */,
+			);
+			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		71EC739B278AF1B400E7FEF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				71EC739C278AF1C400E7FEF9 /* APBDictionaryView.h */,
+				71EC739D278AF1C400E7FEF9 /* APBDictionaryView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		71ED1B6C278A0CDF00415B9A = {
@@ -131,11 +175,8 @@
 			children = (
 				71ED1B78278A0CDF00415B9A /* AppDelegate.h */,
 				71ED1B79278A0CDF00415B9A /* AppDelegate.m */,
-				71ED1B87278A0CE100415B9A /* Assets.xcassets */,
-				71ED1B89278A0CE100415B9A /* LaunchScreen.storyboard */,
-				71ED1B8C278A0CE100415B9A /* Info.plist */,
-				71ED1B8D278A0CE100415B9A /* main.m */,
-				71ED1B84278A0CDF00415B9A /* APBChineseLearner.xcdatamodeld */,
+				71EC7393278AEF3300E7FEF9 /* Supporting Files */,
+				71EC7396278AEF9100E7FEF9 /* UI */,
 			);
 			path = APBChineseLearner;
 			sourceTree = "<group>";
@@ -404,8 +445,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71EC7399278AF17D00E7FEF9 /* APBDictionaryViewController.m in Sources */,
 				71ED1B8E278A0CE100415B9A /* main.m in Sources */,
 				71ED1B86278A0CDF00415B9A /* APBChineseLearner.xcdatamodeld in Sources */,
+				71EC739E278AF1C400E7FEF9 /* APBDictionaryView.m in Sources */,
 				71ED1B7A278A0CDF00415B9A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

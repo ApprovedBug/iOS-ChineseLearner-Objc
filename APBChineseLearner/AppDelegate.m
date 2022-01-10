@@ -6,15 +6,29 @@
 //
 
 #import "AppDelegate.h"
+#import "APBDictionaryViewController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () {
+    APBDictionaryViewController *_dictionaryViewController;
+}
 
 @end
 
 @implementation AppDelegate
 
+- (APBDictionaryViewController *)dictionaryViewController {
+    if (_dictionaryViewController == nil) {
+        _dictionaryViewController = [[APBDictionaryViewController alloc] init];
+    }
+    return _dictionaryViewController;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window setRootViewController:self.dictionaryViewController];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
