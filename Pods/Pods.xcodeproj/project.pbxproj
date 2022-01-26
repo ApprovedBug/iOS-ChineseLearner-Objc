@@ -1,0 +1,1245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0602514502DF7C6DC28B5AA79D4E9A68 /* APBBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA67D2CF9165450D29FA8F3B37AB4CB7 /* APBBaseCollectionViewCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0938590D4D714C85559D322A3462DF3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0C7080BBC835338D157C63AD205CC886 /* APBBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = D93F8F7B11F04C9E10D25D73C7E31A79 /* APBBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D3083F242EA36EC4F4F699EFB438E4A /* FLKAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BE63884E28635EC0607430457BA443 /* FLKAutoLayout-dummy.m */; };
+		123296E456490FE213EFA6DC7DC1D581 /* UIView+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 93039611975E8336398D3E7B38CBCE55 /* UIView+FLKAutoLayoutDebug.m */; };
+		12D28CEEA6DA0E8DCE40397798B4D8BF /* UIViewController+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D570BC2DB355597E8BD406E66FC97A26 /* UIViewController+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EBC2123A7BC0CD8B74251BC8E2838C8 /* UIView+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 4862BDAF1CF2E8661946DFAD2E765580 /* UIView+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		201D1DBEAD129B6BDB58EEAF472A1439 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2311A3DB3DFC83809F276A6B7C500DDE /* NSManagedObject+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F6B1FC624AB7273434861D0F36C320 /* NSManagedObject+Category.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2C0522537CAEF65047BC5BC1184BA4A6 /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B99EDA4454016B4AF619C5D888421B /* NSLayoutConstraint+FLKAutoLayoutDebug.m */; };
+		38A3ED536C741095F0B3EB2BECDB46EA /* NSObject+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = BE866576849A3FB3AF28A53B90C8074F /* NSObject+FLKAutoLayoutDebug.m */; };
+		3F604344902E91DFEFEA40EBEE7F95E0 /* APBBaseCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F213C20B1A8ACA4ABA4743096F36C12 /* APBBaseCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47F327489A5F8863800BB9D179F97E37 /* FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 24A5DB8BD06BBBE35068E846DF37BB83 /* FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51143729D3703ADCB91B0078FC3DB774 /* Pods-APBChineseLearner-APBChineseLearnerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C541BA41C814C5D78F6DB5802140E9F /* Pods-APBChineseLearner-APBChineseLearnerUITests-dummy.m */; };
+		5638C324C72F2D47479DF971EFE4B4E2 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 4801085EE0DA10DDF069FBE60679702E /* NSLayoutConstraint+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		57915E6E7C8FE91F7229E3B1616AF9D9 /* FLKAutoLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B90FCB571795A5C7AEB3618A66EAFE85 /* FLKAutoLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A415BA73AD81BD0B6597DA837EED60B /* NSObject+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5B609CB44DC07EDC1AF1CD568746C7 /* NSObject+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E3440E908B86CF1A242C9F2C2BC057C /* APBFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA28BA3EA383711C88CB7B7B77C59AB2 /* APBFoundation-dummy.m */; };
+		876F1D9C84EF079D77E904201DD50873 /* UIViewController+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7D0FCE934C627A721257F2F8CC855 /* UIViewController+FLKAutoLayout.m */; };
+		89421FBC448725BF1EB137052EFB5216 /* Pods-APBChineseLearnerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0C4478F43A8623D9AFEF9AD2AEFD9 /* Pods-APBChineseLearnerTests-dummy.m */; };
+		894B4A186B85D6F8996CD845D58E06C9 /* APBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 218D304F16850CA31C418100B8BF3D71 /* APBBaseViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8A80973EF0520AFF9E7C867CFDE0EFE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8D0C76924DBD299CADBAEDA77CE40A43 /* UIView+FLKAutoLayoutPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D073CA26A3F9BCEA0AAFF9090A57A2 /* UIView+FLKAutoLayoutPredicate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9915FE1B85F06656B13015BD5FEFC7B9 /* FLKAutoLayoutPredicateList.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1F5BB182508843F5382BF68D357B42 /* FLKAutoLayoutPredicateList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3B817416BB6ACF921EB2DB9F4511783 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B8102C62EBBE62B5A30C12BDD3C4C2FD /* Pods-APBChineseLearnerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F44AD0E53F7C32BB29B103016BFC481C /* Pods-APBChineseLearnerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB88827F54DD03A5C0BE242CE68EDB63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C0C25E495CE3B30BC16007D1A6E0588F /* Pods-APBChineseLearner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5706390EE75660EFBDBC1BB1825425CD /* Pods-APBChineseLearner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2521C3BA86B1E7AC8D1AD31269C35D5 /* APBFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6252E7F215F65C7E3B39E40BD01A34 /* APBFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C29ECB74F2D420DE38DB29E93B8B431F /* UIView+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 94CF8C2216DC3858CE17351E2B182CDA /* UIView+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF97BE51B0853FABE46DCE540A701579 /* APBFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11A03E4C37CADEC4210D913D413BC4B6 /* APBFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1B0A1B7ACC5D55061A8AF695C29F405 /* FLKAutoLayoutPredicateList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D40D9A25E78921CC15B865D9690BFC2 /* FLKAutoLayoutPredicateList.m */; };
+		DD0446633A9C0FC324D089D458A77768 /* NSManagedObject+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D5C9B9418A49217D65B07C2EFF661 /* NSManagedObject+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E20EBEE296CC6A5CCEFAFF4719F2408C /* UIView+FLKAutoLayoutPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B07724E6C5576808FCCAC43700853AA /* UIView+FLKAutoLayoutPredicate.m */; };
+		E5AF99BEEA089A006A8634EBDABFDFF0 /* Pods-APBChineseLearner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4778447416EC95172712287496740AD /* Pods-APBChineseLearner-dummy.m */; };
+		EA4C87A0A6E9C4E1E5B9E22209BD60F2 /* APBBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F46FD81DD2F8829258900006651027 /* APBBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE7C7195367D18D106D6EC2A8DA0AE97 /* UIView+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AED233A3770FAE4ADC37D8B861210073 /* UIView+FLKAutoLayout.m */; };
+		F33CA46E881B359247FEB8E0E8E0DFEA /* Pods-APBChineseLearner-APBChineseLearnerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC4346754F8CAC74F262A3609E9D9A6 /* Pods-APBChineseLearner-APBChineseLearnerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F89443451DEE1F520DA34E6867F700E8 /* APBBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EB6A2C36875A09541C94FAE7C2FE62 /* APBBaseView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E773B8E675871188CA9F6D287611304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E1AF1EC3B2216ABF51EA65A0F373CAA;
+			remoteInfo = FLKAutoLayout;
+		};
+		37F649B6C1216932AB20AE390B3BE89C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27FF82E3A14773B5FA46747967C189DD;
+			remoteInfo = "Pods-APBChineseLearner";
+		};
+		8DC8602528C94F46C75369BB72C76957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7855D45D72D22EC4E130C7A3A810236;
+			remoteInfo = APBFoundation;
+		};
+		AFDA4B3457A9A1C672B8FACAF2D0812D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7855D45D72D22EC4E130C7A3A810236;
+			remoteInfo = APBFoundation;
+		};
+		F44328498464BEC044C587BD3BD58DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E1AF1EC3B2216ABF51EA65A0F373CAA;
+			remoteInfo = FLKAutoLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0778B520AD4DDD1314391ACA8B1DE142 /* Pods-APBChineseLearnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APBChineseLearnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D40D9A25E78921CC15B865D9690BFC2 /* FLKAutoLayoutPredicateList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLKAutoLayoutPredicateList.m; path = FLKAutoLayout/Private/FLKAutoLayoutPredicateList.m; sourceTree = "<group>"; };
+		0E1F5BB182508843F5382BF68D357B42 /* FLKAutoLayoutPredicateList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLKAutoLayoutPredicateList.h; path = FLKAutoLayout/Private/FLKAutoLayoutPredicateList.h; sourceTree = "<group>"; };
+		11A03E4C37CADEC4210D913D413BC4B6 /* APBFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APBFoundation-umbrella.h"; sourceTree = "<group>"; };
+		1C541BA41C814C5D78F6DB5802140E9F /* Pods-APBChineseLearner-APBChineseLearnerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APBChineseLearner-APBChineseLearnerUITests-dummy.m"; sourceTree = "<group>"; };
+		1F213C20B1A8ACA4ABA4743096F36C12 /* APBBaseCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APBBaseCollectionViewCell.h; path = APBFoundation/Classes/UI/APBBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		218D304F16850CA31C418100B8BF3D71 /* APBBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APBBaseViewController.m; path = APBFoundation/Classes/UI/APBBaseViewController.m; sourceTree = "<group>"; };
+		24A5DB8BD06BBBE35068E846DF37BB83 /* FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLKAutoLayout.h; path = FLKAutoLayout/FLKAutoLayout.h; sourceTree = "<group>"; };
+		2A01D84785646BC641C5518ADAF5822A /* Pods-APBChineseLearner-APBChineseLearnerUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-APBChineseLearner-APBChineseLearnerUITests"; path = Pods_APBChineseLearner_APBChineseLearnerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC4346754F8CAC74F262A3609E9D9A6 /* Pods-APBChineseLearner-APBChineseLearnerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APBChineseLearner-APBChineseLearnerUITests-umbrella.h"; sourceTree = "<group>"; };
+		2E80ECEB21670C33C13E7A39FE696C10 /* Pods-APBChineseLearner-APBChineseLearnerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APBChineseLearner-APBChineseLearnerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		33BBAC45A8104436FD216635B1E258EE /* Pods-APBChineseLearner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-APBChineseLearner"; path = Pods_APBChineseLearner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		352DC0D9783A5D3AD1AC482B4555649B /* Pods-APBChineseLearner-APBChineseLearnerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APBChineseLearner-APBChineseLearnerUITests.modulemap"; sourceTree = "<group>"; };
+		3A5B609CB44DC07EDC1AF1CD568746C7 /* NSObject+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/NSObject+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		3C396B55ABE515DA330424342DD90F0C /* Pods-APBChineseLearner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APBChineseLearner-acknowledgements.plist"; sourceTree = "<group>"; };
+		3CD60D8FB3B8565E27D1BAC341BC1E65 /* Pods-APBChineseLearnerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APBChineseLearnerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		409F3C07C0B9F0B5D1A52CB166553364 /* Pods-APBChineseLearner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APBChineseLearner.debug.xcconfig"; sourceTree = "<group>"; };
+		43BCEDE8C546988DCF5F20C35143CEF4 /* FLKAutoLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLKAutoLayout.debug.xcconfig; sourceTree = "<group>"; };
+		477BEE72CCE0ABCA46AFDCC0042898BF /* FLKAutoLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FLKAutoLayout.modulemap; sourceTree = "<group>"; };
+		4801085EE0DA10DDF069FBE60679702E /* NSLayoutConstraint+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/Private/NSLayoutConstraint+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		4862BDAF1CF2E8661946DFAD2E765580 /* UIView+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		4B07724E6C5576808FCCAC43700853AA /* UIView+FLKAutoLayoutPredicate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutPredicate.m"; path = "FLKAutoLayout/Private/UIView+FLKAutoLayoutPredicate.m"; sourceTree = "<group>"; };
+		5706390EE75660EFBDBC1BB1825425CD /* Pods-APBChineseLearner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APBChineseLearner-umbrella.h"; sourceTree = "<group>"; };
+		5E446258E79A21F72497D188AF400374 /* APBFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "APBFoundation-Info.plist"; sourceTree = "<group>"; };
+		6005EDCFDBD1F093F13E6191B90D20CC /* Pods-APBChineseLearnerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APBChineseLearnerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D33C62A1ECBA56E134E595BBB000AFA /* APBFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = APBFoundation.modulemap; sourceTree = "<group>"; };
+		6E52A40820668899AB2D811F836F0FE7 /* Pods-APBChineseLearner-APBChineseLearnerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APBChineseLearner-APBChineseLearnerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7031A51349FD1EC93FB480169FB3658F /* Pods-APBChineseLearner-APBChineseLearnerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APBChineseLearner-APBChineseLearnerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79C39D9B7CF7DFD288F68FB043DCB866 /* FLKAutoLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FLKAutoLayout-Info.plist"; sourceTree = "<group>"; };
+		7F7106DAC78DB4C0BBF1E77B455F4963 /* APBFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APBFoundation.release.xcconfig; sourceTree = "<group>"; };
+		7FC45D725630BE6FC9E3E7080198ED19 /* Pods-APBChineseLearner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APBChineseLearner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C6407CC39F4F2261A4C4FFA742A1561 /* Pods-APBChineseLearner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APBChineseLearner.release.xcconfig"; sourceTree = "<group>"; };
+		8DC0C4478F43A8623D9AFEF9AD2AEFD9 /* Pods-APBChineseLearnerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APBChineseLearnerTests-dummy.m"; sourceTree = "<group>"; };
+		93039611975E8336398D3E7B38CBCE55 /* UIView+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
+		93AFE5A7695EBAEE69849994EB495801 /* Pods-APBChineseLearnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APBChineseLearnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		94CF8C2216DC3858CE17351E2B182CDA /* UIView+FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayout.h"; path = "FLKAutoLayout/UIView+FLKAutoLayout.h"; sourceTree = "<group>"; };
+		9625C37AB3AB7D9ADD0E1AB1FE099278 /* FLKAutoLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLKAutoLayout; path = FLKAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D073CA26A3F9BCEA0AAFF9090A57A2 /* UIView+FLKAutoLayoutPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutPredicate.h"; path = "FLKAutoLayout/Private/UIView+FLKAutoLayoutPredicate.h"; sourceTree = "<group>"; };
+		9A6252E7F215F65C7E3B39E40BD01A34 /* APBFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APBFoundation.h; path = APBFoundation/APBFoundation.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EEAD57B296AC5C7A2DC8268A0011145 /* APBFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APBFoundation.debug.xcconfig; sourceTree = "<group>"; };
+		A78D5C9B9418A49217D65B07C2EFF661 /* NSManagedObject+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+Category.h"; path = "APBFoundation/Classes/Categories/NSManagedObject+Category.h"; sourceTree = "<group>"; };
+		AA67D2CF9165450D29FA8F3B37AB4CB7 /* APBBaseCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APBBaseCollectionViewCell.m; path = APBFoundation/Classes/UI/APBBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		AED233A3770FAE4ADC37D8B861210073 /* UIView+FLKAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayout.m"; path = "FLKAutoLayout/UIView+FLKAutoLayout.m"; sourceTree = "<group>"; };
+		B0EB6A2C36875A09541C94FAE7C2FE62 /* APBBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APBBaseView.m; path = APBFoundation/Classes/UI/APBBaseView.m; sourceTree = "<group>"; };
+		B1F6B1FC624AB7273434861D0F36C320 /* NSManagedObject+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+Category.m"; path = "APBFoundation/Classes/Categories/NSManagedObject+Category.m"; sourceTree = "<group>"; };
+		B3BE63884E28635EC0607430457BA443 /* FLKAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLKAutoLayout-dummy.m"; sourceTree = "<group>"; };
+		B4778447416EC95172712287496740AD /* Pods-APBChineseLearner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APBChineseLearner-dummy.m"; sourceTree = "<group>"; };
+		B4AB129A7B03FEE08256789210D8F8B6 /* Pods-APBChineseLearner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APBChineseLearner-Info.plist"; sourceTree = "<group>"; };
+		B90FCB571795A5C7AEB3618A66EAFE85 /* FLKAutoLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLKAutoLayout-umbrella.h"; sourceTree = "<group>"; };
+		BAC1900DE8635219FC118F80B4345645 /* FLKAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLKAutoLayout-prefix.pch"; sourceTree = "<group>"; };
+		BD4B11BC2C249DF62654213A9E6C91CC /* Pods-APBChineseLearner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APBChineseLearner.modulemap"; sourceTree = "<group>"; };
+		BE866576849A3FB3AF28A53B90C8074F /* NSObject+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/NSObject+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
+		C189881B324A900014DB2AD397C11F12 /* Pods-APBChineseLearner-APBChineseLearnerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APBChineseLearner-APBChineseLearnerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C20653B9174ABC854FCA0AFB30634270 /* Pods-APBChineseLearner-APBChineseLearnerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APBChineseLearner-APBChineseLearnerUITests-Info.plist"; sourceTree = "<group>"; };
+		C3F80684C5647A4207DBF2BE6347D173 /* Pods-APBChineseLearner-APBChineseLearnerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APBChineseLearner-APBChineseLearnerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D570BC2DB355597E8BD406E66FC97A26 /* UIViewController+FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FLKAutoLayout.h"; path = "FLKAutoLayout/UIViewController+FLKAutoLayout.h"; sourceTree = "<group>"; };
+		D7B99EDA4454016B4AF619C5D888421B /* NSLayoutConstraint+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/Private/NSLayoutConstraint+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
+		D93F8F7B11F04C9E10D25D73C7E31A79 /* APBBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APBBaseView.h; path = APBFoundation/Classes/UI/APBBaseView.h; sourceTree = "<group>"; };
+		DFA7D0FCE934C627A721257F2F8CC855 /* UIViewController+FLKAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FLKAutoLayout.m"; path = "FLKAutoLayout/UIViewController+FLKAutoLayout.m"; sourceTree = "<group>"; };
+		E1F46FD81DD2F8829258900006651027 /* APBBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APBBaseViewController.h; path = APBFoundation/Classes/UI/APBBaseViewController.h; sourceTree = "<group>"; };
+		E739681A54EAB51B4BA6FC106132BDEE /* Pods-APBChineseLearnerTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-APBChineseLearnerTests"; path = Pods_APBChineseLearnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA28BA3EA383711C88CB7B7B77C59AB2 /* APBFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APBFoundation-dummy.m"; sourceTree = "<group>"; };
+		F314EFE3268529702B70A24688304F21 /* Pods-APBChineseLearner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APBChineseLearner-frameworks.sh"; sourceTree = "<group>"; };
+		F44AD0E53F7C32BB29B103016BFC481C /* Pods-APBChineseLearnerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APBChineseLearnerTests-umbrella.h"; sourceTree = "<group>"; };
+		F7CFCE9469C81BB59AC03747EC57DF13 /* FLKAutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLKAutoLayout.release.xcconfig; sourceTree = "<group>"; };
+		FA08ED469C38CB8260D2CA7F0DA98403 /* Pods-APBChineseLearnerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APBChineseLearnerTests-Info.plist"; sourceTree = "<group>"; };
+		FBE15A10233FF80E25DC5461CAAA8B76 /* Pods-APBChineseLearnerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APBChineseLearnerTests.modulemap"; sourceTree = "<group>"; };
+		FF5A1450112B9E0328E727CA5E1E86D2 /* APBFoundation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = APBFoundation; path = APBFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB8E99CAB2159EC7DA49AF2855F5990 /* APBFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APBFoundation-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AE09EB6C9FD39F013541E5F2C0ABC7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0938590D4D714C85559D322A3462DF3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFC95BBA422BC689DBB14FDCD7B265B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201D1DBEAD129B6BDB58EEAF472A1439 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F9793B5EA59731BE55C0B3C03D90A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB88827F54DD03A5C0BE242CE68EDB63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9C57C10500F1D9C56511FF98205DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B817416BB6ACF921EB2DB9F4511783 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC348FF4A9078E42F30EE0B78537A72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A80973EF0520AFF9E7C867CFDE0EFE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C3D6DE3579DCE8C7245A344F8E4A00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF5A1450112B9E0328E727CA5E1E86D2 /* APBFoundation */,
+				9625C37AB3AB7D9ADD0E1AB1FE099278 /* FLKAutoLayout */,
+				33BBAC45A8104436FD216635B1E258EE /* Pods-APBChineseLearner */,
+				2A01D84785646BC641C5518ADAF5822A /* Pods-APBChineseLearner-APBChineseLearnerUITests */,
+				E739681A54EAB51B4BA6FC106132BDEE /* Pods-APBChineseLearnerTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07781D320CA172466D9BAB7ACB2870FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D33C62A1ECBA56E134E595BBB000AFA /* APBFoundation.modulemap */,
+				EA28BA3EA383711C88CB7B7B77C59AB2 /* APBFoundation-dummy.m */,
+				5E446258E79A21F72497D188AF400374 /* APBFoundation-Info.plist */,
+				FFB8E99CAB2159EC7DA49AF2855F5990 /* APBFoundation-prefix.pch */,
+				11A03E4C37CADEC4210D913D413BC4B6 /* APBFoundation-umbrella.h */,
+				9EEAD57B296AC5C7A2DC8268A0011145 /* APBFoundation.debug.xcconfig */,
+				7F7106DAC78DB4C0BBF1E77B455F4963 /* APBFoundation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APBFoundation";
+			sourceTree = "<group>";
+		};
+		12DED8EB97DBE087471A2FCB1A92F1EB /* Pods-APBChineseLearner-APBChineseLearnerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				352DC0D9783A5D3AD1AC482B4555649B /* Pods-APBChineseLearner-APBChineseLearnerUITests.modulemap */,
+				7031A51349FD1EC93FB480169FB3658F /* Pods-APBChineseLearner-APBChineseLearnerUITests-acknowledgements.markdown */,
+				C189881B324A900014DB2AD397C11F12 /* Pods-APBChineseLearner-APBChineseLearnerUITests-acknowledgements.plist */,
+				1C541BA41C814C5D78F6DB5802140E9F /* Pods-APBChineseLearner-APBChineseLearnerUITests-dummy.m */,
+				2E80ECEB21670C33C13E7A39FE696C10 /* Pods-APBChineseLearner-APBChineseLearnerUITests-frameworks.sh */,
+				C20653B9174ABC854FCA0AFB30634270 /* Pods-APBChineseLearner-APBChineseLearnerUITests-Info.plist */,
+				2DC4346754F8CAC74F262A3609E9D9A6 /* Pods-APBChineseLearner-APBChineseLearnerUITests-umbrella.h */,
+				6E52A40820668899AB2D811F836F0FE7 /* Pods-APBChineseLearner-APBChineseLearnerUITests.debug.xcconfig */,
+				C3F80684C5647A4207DBF2BE6347D173 /* Pods-APBChineseLearner-APBChineseLearnerUITests.release.xcconfig */,
+			);
+			name = "Pods-APBChineseLearner-APBChineseLearnerUITests";
+			path = "Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests";
+			sourceTree = "<group>";
+		};
+		1F488DC823D9835DEFC010721B1E7B1E /* Pods-APBChineseLearnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBE15A10233FF80E25DC5461CAAA8B76 /* Pods-APBChineseLearnerTests.modulemap */,
+				6005EDCFDBD1F093F13E6191B90D20CC /* Pods-APBChineseLearnerTests-acknowledgements.markdown */,
+				3CD60D8FB3B8565E27D1BAC341BC1E65 /* Pods-APBChineseLearnerTests-acknowledgements.plist */,
+				8DC0C4478F43A8623D9AFEF9AD2AEFD9 /* Pods-APBChineseLearnerTests-dummy.m */,
+				FA08ED469C38CB8260D2CA7F0DA98403 /* Pods-APBChineseLearnerTests-Info.plist */,
+				F44AD0E53F7C32BB29B103016BFC481C /* Pods-APBChineseLearnerTests-umbrella.h */,
+				0778B520AD4DDD1314391ACA8B1DE142 /* Pods-APBChineseLearnerTests.debug.xcconfig */,
+				93AFE5A7695EBAEE69849994EB495801 /* Pods-APBChineseLearnerTests.release.xcconfig */,
+			);
+			name = "Pods-APBChineseLearnerTests";
+			path = "Target Support Files/Pods-APBChineseLearnerTests";
+			sourceTree = "<group>";
+		};
+		315005E9B7D0CE7D75502ADE9180C0B1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6D30789E67C8B9D4D8172ADE86CD8A4 /* Pods-APBChineseLearner */,
+				12DED8EB97DBE087471A2FCB1A92F1EB /* Pods-APBChineseLearner-APBChineseLearnerUITests */,
+				1F488DC823D9835DEFC010721B1E7B1E /* Pods-APBChineseLearnerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		56E09C4EC8B4FEF76C6F3B1031D57CCA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				477BEE72CCE0ABCA46AFDCC0042898BF /* FLKAutoLayout.modulemap */,
+				B3BE63884E28635EC0607430457BA443 /* FLKAutoLayout-dummy.m */,
+				79C39D9B7CF7DFD288F68FB043DCB866 /* FLKAutoLayout-Info.plist */,
+				BAC1900DE8635219FC118F80B4345645 /* FLKAutoLayout-prefix.pch */,
+				B90FCB571795A5C7AEB3618A66EAFE85 /* FLKAutoLayout-umbrella.h */,
+				43BCEDE8C546988DCF5F20C35143CEF4 /* FLKAutoLayout.debug.xcconfig */,
+				F7CFCE9469C81BB59AC03747EC57DF13 /* FLKAutoLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FLKAutoLayout";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A6D30789E67C8B9D4D8172ADE86CD8A4 /* Pods-APBChineseLearner */ = {
+			isa = PBXGroup;
+			children = (
+				BD4B11BC2C249DF62654213A9E6C91CC /* Pods-APBChineseLearner.modulemap */,
+				7FC45D725630BE6FC9E3E7080198ED19 /* Pods-APBChineseLearner-acknowledgements.markdown */,
+				3C396B55ABE515DA330424342DD90F0C /* Pods-APBChineseLearner-acknowledgements.plist */,
+				B4778447416EC95172712287496740AD /* Pods-APBChineseLearner-dummy.m */,
+				F314EFE3268529702B70A24688304F21 /* Pods-APBChineseLearner-frameworks.sh */,
+				B4AB129A7B03FEE08256789210D8F8B6 /* Pods-APBChineseLearner-Info.plist */,
+				5706390EE75660EFBDBC1BB1825425CD /* Pods-APBChineseLearner-umbrella.h */,
+				409F3C07C0B9F0B5D1A52CB166553364 /* Pods-APBChineseLearner.debug.xcconfig */,
+				8C6407CC39F4F2261A4C4FFA742A1561 /* Pods-APBChineseLearner.release.xcconfig */,
+			);
+			name = "Pods-APBChineseLearner";
+			path = "Target Support Files/Pods-APBChineseLearner";
+			sourceTree = "<group>";
+		};
+		AC1BB2A381F7E63B499C104BAA53F06B /* FLKAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				24A5DB8BD06BBBE35068E846DF37BB83 /* FLKAutoLayout.h */,
+				0E1F5BB182508843F5382BF68D357B42 /* FLKAutoLayoutPredicateList.h */,
+				0D40D9A25E78921CC15B865D9690BFC2 /* FLKAutoLayoutPredicateList.m */,
+				4801085EE0DA10DDF069FBE60679702E /* NSLayoutConstraint+FLKAutoLayoutDebug.h */,
+				D7B99EDA4454016B4AF619C5D888421B /* NSLayoutConstraint+FLKAutoLayoutDebug.m */,
+				3A5B609CB44DC07EDC1AF1CD568746C7 /* NSObject+FLKAutoLayoutDebug.h */,
+				BE866576849A3FB3AF28A53B90C8074F /* NSObject+FLKAutoLayoutDebug.m */,
+				94CF8C2216DC3858CE17351E2B182CDA /* UIView+FLKAutoLayout.h */,
+				AED233A3770FAE4ADC37D8B861210073 /* UIView+FLKAutoLayout.m */,
+				4862BDAF1CF2E8661946DFAD2E765580 /* UIView+FLKAutoLayoutDebug.h */,
+				93039611975E8336398D3E7B38CBCE55 /* UIView+FLKAutoLayoutDebug.m */,
+				97D073CA26A3F9BCEA0AAFF9090A57A2 /* UIView+FLKAutoLayoutPredicate.h */,
+				4B07724E6C5576808FCCAC43700853AA /* UIView+FLKAutoLayoutPredicate.m */,
+				D570BC2DB355597E8BD406E66FC97A26 /* UIViewController+FLKAutoLayout.h */,
+				DFA7D0FCE934C627A721257F2F8CC855 /* UIViewController+FLKAutoLayout.m */,
+				56E09C4EC8B4FEF76C6F3B1031D57CCA /* Support Files */,
+			);
+			name = FLKAutoLayout;
+			path = FLKAutoLayout;
+			sourceTree = "<group>";
+		};
+		B8E27E4C0BD9266848E6C333D604BCA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9CC10B2EE315A68B457F2DCF231C863 /* APBFoundation */,
+				AC1BB2A381F7E63B499C104BAA53F06B /* FLKAutoLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B8E27E4C0BD9266848E6C333D604BCA8 /* Pods */,
+				00C3D6DE3579DCE8C7245A344F8E4A00 /* Products */,
+				315005E9B7D0CE7D75502ADE9180C0B1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9CC10B2EE315A68B457F2DCF231C863 /* APBFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				1F213C20B1A8ACA4ABA4743096F36C12 /* APBBaseCollectionViewCell.h */,
+				AA67D2CF9165450D29FA8F3B37AB4CB7 /* APBBaseCollectionViewCell.m */,
+				D93F8F7B11F04C9E10D25D73C7E31A79 /* APBBaseView.h */,
+				B0EB6A2C36875A09541C94FAE7C2FE62 /* APBBaseView.m */,
+				E1F46FD81DD2F8829258900006651027 /* APBBaseViewController.h */,
+				218D304F16850CA31C418100B8BF3D71 /* APBBaseViewController.m */,
+				9A6252E7F215F65C7E3B39E40BD01A34 /* APBFoundation.h */,
+				A78D5C9B9418A49217D65B07C2EFF661 /* NSManagedObject+Category.h */,
+				B1F6B1FC624AB7273434861D0F36C320 /* NSManagedObject+Category.m */,
+				07781D320CA172466D9BAB7ACB2870FF /* Support Files */,
+			);
+			name = APBFoundation;
+			path = APBFoundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46AF8AF431D860FAC9953FF4B62A27ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F604344902E91DFEFEA40EBEE7F95E0 /* APBBaseCollectionViewCell.h in Headers */,
+				0C7080BBC835338D157C63AD205CC886 /* APBBaseView.h in Headers */,
+				EA4C87A0A6E9C4E1E5B9E22209BD60F2 /* APBBaseViewController.h in Headers */,
+				C2521C3BA86B1E7AC8D1AD31269C35D5 /* APBFoundation.h in Headers */,
+				CF97BE51B0853FABE46DCE540A701579 /* APBFoundation-umbrella.h in Headers */,
+				DD0446633A9C0FC324D089D458A77768 /* NSManagedObject+Category.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2CB5EFCF168D9CB98319570931838C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C25E495CE3B30BC16007D1A6E0588F /* Pods-APBChineseLearner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72EE3267F755B1D9F46D5237F6D1C091 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F327489A5F8863800BB9D179F97E37 /* FLKAutoLayout.h in Headers */,
+				57915E6E7C8FE91F7229E3B1616AF9D9 /* FLKAutoLayout-umbrella.h in Headers */,
+				9915FE1B85F06656B13015BD5FEFC7B9 /* FLKAutoLayoutPredicateList.h in Headers */,
+				5638C324C72F2D47479DF971EFE4B4E2 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */,
+				7A415BA73AD81BD0B6597DA837EED60B /* NSObject+FLKAutoLayoutDebug.h in Headers */,
+				C29ECB74F2D420DE38DB29E93B8B431F /* UIView+FLKAutoLayout.h in Headers */,
+				1EBC2123A7BC0CD8B74251BC8E2838C8 /* UIView+FLKAutoLayoutDebug.h in Headers */,
+				8D0C76924DBD299CADBAEDA77CE40A43 /* UIView+FLKAutoLayoutPredicate.h in Headers */,
+				12D28CEEA6DA0E8DCE40397798B4D8BF /* UIViewController+FLKAutoLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C62881DD1A4B8CF073F4A8B00C9F3B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8102C62EBBE62B5A30C12BDD3C4C2FD /* Pods-APBChineseLearnerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0E6299AB890FC2130E0C8CBFBA1CC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33CA46E881B359247FEB8E0E8E0DFEA /* Pods-APBChineseLearner-APBChineseLearnerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27FF82E3A14773B5FA46747967C189DD /* Pods-APBChineseLearner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846365B054A6C15976126597857EC887 /* Build configuration list for PBXNativeTarget "Pods-APBChineseLearner" */;
+			buildPhases = (
+				4F2CB5EFCF168D9CB98319570931838C /* Headers */,
+				0E82F190168902C08C9FBDF4E345F1FE /* Sources */,
+				DC9C57C10500F1D9C56511FF98205DB7 /* Frameworks */,
+				AC8EC5985564D145A52A2FE807C17D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFEAE7677653C1D4B78240B430D7EECD /* PBXTargetDependency */,
+				6C6CE377D4CEEA42D03B769067470FA3 /* PBXTargetDependency */,
+			);
+			name = "Pods-APBChineseLearner";
+			productName = Pods_APBChineseLearner;
+			productReference = 33BBAC45A8104436FD216635B1E258EE /* Pods-APBChineseLearner */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E1AF1EC3B2216ABF51EA65A0F373CAA /* FLKAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E00E467A4BAF602F62EAC50375633D /* Build configuration list for PBXNativeTarget "FLKAutoLayout" */;
+			buildPhases = (
+				72EE3267F755B1D9F46D5237F6D1C091 /* Headers */,
+				532742530DA95075ACAE435AFF7FF2A4 /* Sources */,
+				8FFC95BBA422BC689DBB14FDCD7B265B /* Frameworks */,
+				D3D8D5CF76125647C7F01A78F0E5D106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLKAutoLayout;
+			productName = FLKAutoLayout;
+			productReference = 9625C37AB3AB7D9ADD0E1AB1FE099278 /* FLKAutoLayout */;
+			productType = "com.apple.product-type.framework";
+		};
+		632D7D60AA168B60F8E34FF084EB3675 /* Pods-APBChineseLearner-APBChineseLearnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E5D9EF3D8D853B3B923520990200B0 /* Build configuration list for PBXNativeTarget "Pods-APBChineseLearner-APBChineseLearnerUITests" */;
+			buildPhases = (
+				BD0E6299AB890FC2130E0C8CBFBA1CC6 /* Headers */,
+				0279C17D65C5E5428FB77882DD901F5F /* Sources */,
+				EC348FF4A9078E42F30EE0B78537A72B /* Frameworks */,
+				5AF47906CF0969912AE27CA8FDE95AA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255776467B54DA530DD781F20B91F861 /* PBXTargetDependency */,
+				75C1E8ECE44D4A3FF1B0279594EA4C63 /* PBXTargetDependency */,
+			);
+			name = "Pods-APBChineseLearner-APBChineseLearnerUITests";
+			productName = Pods_APBChineseLearner_APBChineseLearnerUITests;
+			productReference = 2A01D84785646BC641C5518ADAF5822A /* Pods-APBChineseLearner-APBChineseLearnerUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7855D45D72D22EC4E130C7A3A810236 /* APBFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F41F444155FA3A1EFAA3EDE816628FD /* Build configuration list for PBXNativeTarget "APBFoundation" */;
+			buildPhases = (
+				46AF8AF431D860FAC9953FF4B62A27ED /* Headers */,
+				298C6124ECFAA270D12B5995D074D383 /* Sources */,
+				7AE09EB6C9FD39F013541E5F2C0ABC7A /* Frameworks */,
+				47032B7A041906F9CD6D0272D350C708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APBFoundation;
+			productName = APBFoundation;
+			productReference = FF5A1450112B9E0328E727CA5E1E86D2 /* APBFoundation */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF245798860FA8F3ED6F692F6605B098 /* Pods-APBChineseLearnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0151B114B549E47BADFBC9658117D3AD /* Build configuration list for PBXNativeTarget "Pods-APBChineseLearnerTests" */;
+			buildPhases = (
+				7C62881DD1A4B8CF073F4A8B00C9F3B9 /* Headers */,
+				DC73F9DF79B249E09A8BB7E3F8DA8782 /* Sources */,
+				D5F9793B5EA59731BE55C0B3C03D90A2 /* Frameworks */,
+				AE6D369D49F64E5DF7A22F9D3759F1D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED2951E5567EFBF42358303B3DEEF96F /* PBXTargetDependency */,
+			);
+			name = "Pods-APBChineseLearnerTests";
+			productName = Pods_APBChineseLearnerTests;
+			productReference = E739681A54EAB51B4BA6FC106132BDEE /* Pods-APBChineseLearnerTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 00C3D6DE3579DCE8C7245A344F8E4A00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7855D45D72D22EC4E130C7A3A810236 /* APBFoundation */,
+				5E1AF1EC3B2216ABF51EA65A0F373CAA /* FLKAutoLayout */,
+				27FF82E3A14773B5FA46747967C189DD /* Pods-APBChineseLearner */,
+				632D7D60AA168B60F8E34FF084EB3675 /* Pods-APBChineseLearner-APBChineseLearnerUITests */,
+				FF245798860FA8F3ED6F692F6605B098 /* Pods-APBChineseLearnerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47032B7A041906F9CD6D0272D350C708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF47906CF0969912AE27CA8FDE95AA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8EC5985564D145A52A2FE807C17D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6D369D49F64E5DF7A22F9D3759F1D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D8D5CF76125647C7F01A78F0E5D106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0279C17D65C5E5428FB77882DD901F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51143729D3703ADCB91B0078FC3DB774 /* Pods-APBChineseLearner-APBChineseLearnerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E82F190168902C08C9FBDF4E345F1FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AF99BEEA089A006A8634EBDABFDFF0 /* Pods-APBChineseLearner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298C6124ECFAA270D12B5995D074D383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0602514502DF7C6DC28B5AA79D4E9A68 /* APBBaseCollectionViewCell.m in Sources */,
+				F89443451DEE1F520DA34E6867F700E8 /* APBBaseView.m in Sources */,
+				894B4A186B85D6F8996CD845D58E06C9 /* APBBaseViewController.m in Sources */,
+				7E3440E908B86CF1A242C9F2C2BC057C /* APBFoundation-dummy.m in Sources */,
+				2311A3DB3DFC83809F276A6B7C500DDE /* NSManagedObject+Category.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532742530DA95075ACAE435AFF7FF2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3083F242EA36EC4F4F699EFB438E4A /* FLKAutoLayout-dummy.m in Sources */,
+				D1B0A1B7ACC5D55061A8AF695C29F405 /* FLKAutoLayoutPredicateList.m in Sources */,
+				2C0522537CAEF65047BC5BC1184BA4A6 /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */,
+				38A3ED536C741095F0B3EB2BECDB46EA /* NSObject+FLKAutoLayoutDebug.m in Sources */,
+				EE7C7195367D18D106D6EC2A8DA0AE97 /* UIView+FLKAutoLayout.m in Sources */,
+				123296E456490FE213EFA6DC7DC1D581 /* UIView+FLKAutoLayoutDebug.m in Sources */,
+				E20EBEE296CC6A5CCEFAFF4719F2408C /* UIView+FLKAutoLayoutPredicate.m in Sources */,
+				876F1D9C84EF079D77E904201DD50873 /* UIViewController+FLKAutoLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC73F9DF79B249E09A8BB7E3F8DA8782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89421FBC448725BF1EB137052EFB5216 /* Pods-APBChineseLearnerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		255776467B54DA530DD781F20B91F861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APBFoundation;
+			target = A7855D45D72D22EC4E130C7A3A810236 /* APBFoundation */;
+			targetProxy = 8DC8602528C94F46C75369BB72C76957 /* PBXContainerItemProxy */;
+		};
+		6C6CE377D4CEEA42D03B769067470FA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLKAutoLayout;
+			target = 5E1AF1EC3B2216ABF51EA65A0F373CAA /* FLKAutoLayout */;
+			targetProxy = F44328498464BEC044C587BD3BD58DD9 /* PBXContainerItemProxy */;
+		};
+		75C1E8ECE44D4A3FF1B0279594EA4C63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLKAutoLayout;
+			target = 5E1AF1EC3B2216ABF51EA65A0F373CAA /* FLKAutoLayout */;
+			targetProxy = 0E773B8E675871188CA9F6D287611304 /* PBXContainerItemProxy */;
+		};
+		DFEAE7677653C1D4B78240B430D7EECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APBFoundation;
+			target = A7855D45D72D22EC4E130C7A3A810236 /* APBFoundation */;
+			targetProxy = AFDA4B3457A9A1C672B8FACAF2D0812D /* PBXContainerItemProxy */;
+		};
+		ED2951E5567EFBF42358303B3DEEF96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-APBChineseLearner";
+			target = 27FF82E3A14773B5FA46747967C189DD /* Pods-APBChineseLearner */;
+			targetProxy = 37F649B6C1216932AB20AE390B3BE89C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F3866678F0AD09DFFB01F486C5F5B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7106DAC78DB4C0BBF1E77B455F4963 /* APBFoundation.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/APBFoundation/APBFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APBFoundation/APBFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/APBFoundation/APBFoundation.modulemap";
+				PRODUCT_MODULE_NAME = APBFoundation;
+				PRODUCT_NAME = APBFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FA00DBED61414376C5AFD6767A923C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409F3C07C0B9F0B5D1A52CB166553364 /* Pods-APBChineseLearner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		229EACC7D546471141C25ACE73F92F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F80684C5647A4207DBF2BE6347D173 /* Pods-APBChineseLearner-APBChineseLearnerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		22B5925C324252BAA4B254EA4F6B08FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0778B520AD4DDD1314391ACA8B1DE142 /* Pods-APBChineseLearnerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APBChineseLearnerTests/Pods-APBChineseLearnerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APBChineseLearnerTests/Pods-APBChineseLearnerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E5700CBB2D9F6A8A53ED4C63B71BD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E52A40820668899AB2D811F836F0FE7 /* Pods-APBChineseLearner-APBChineseLearnerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		587CC4076FA9CB8B2CDD171C24616F2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C6407CC39F4F2261A4C4FFA742A1561 /* Pods-APBChineseLearner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E5C9CC79CDBCDB50BE7D4563835A7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43BCEDE8C546988DCF5F20C35143CEF4 /* FLKAutoLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayout/FLKAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLKAutoLayout/FLKAutoLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout/FLKAutoLayout.modulemap";
+				PRODUCT_MODULE_NAME = FLKAutoLayout;
+				PRODUCT_NAME = FLKAutoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F81229D84668F6A81DEBD5D4F2104E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EEAD57B296AC5C7A2DC8268A0011145 /* APBFoundation.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/APBFoundation/APBFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APBFoundation/APBFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/APBFoundation/APBFoundation.modulemap";
+				PRODUCT_MODULE_NAME = APBFoundation;
+				PRODUCT_NAME = APBFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CB2A1DA342019A3E87CD80CE92EDE62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7CFCE9469C81BB59AC03747EC57DF13 /* FLKAutoLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayout/FLKAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLKAutoLayout/FLKAutoLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout/FLKAutoLayout.modulemap";
+				PRODUCT_MODULE_NAME = FLKAutoLayout;
+				PRODUCT_NAME = FLKAutoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E56A6AE0962F9D44B700ADE52C2BAED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93AFE5A7695EBAEE69849994EB495801 /* Pods-APBChineseLearnerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APBChineseLearnerTests/Pods-APBChineseLearnerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APBChineseLearnerTests/Pods-APBChineseLearnerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0151B114B549E47BADFBC9658117D3AD /* Build configuration list for PBXNativeTarget "Pods-APBChineseLearnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B5925C324252BAA4B254EA4F6B08FD /* Debug */,
+				E56A6AE0962F9D44B700ADE52C2BAED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E5D9EF3D8D853B3B923520990200B0 /* Build configuration list for PBXNativeTarget "Pods-APBChineseLearner-APBChineseLearnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5700CBB2D9F6A8A53ED4C63B71BD03 /* Debug */,
+				229EACC7D546471141C25ACE73F92F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E00E467A4BAF602F62EAC50375633D /* Build configuration list for PBXNativeTarget "FLKAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5C9CC79CDBCDB50BE7D4563835A7CC /* Debug */,
+				CB2A1DA342019A3E87CD80CE92EDE62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F41F444155FA3A1EFAA3EDE816628FD /* Build configuration list for PBXNativeTarget "APBFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F81229D84668F6A81DEBD5D4F2104E8 /* Debug */,
+				1F3866678F0AD09DFFB01F486C5F5B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846365B054A6C15976126597857EC887 /* Build configuration list for PBXNativeTarget "Pods-APBChineseLearner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA00DBED61414376C5AFD6767A923C1 /* Debug */,
+				587CC4076FA9CB8B2CDD171C24616F2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
