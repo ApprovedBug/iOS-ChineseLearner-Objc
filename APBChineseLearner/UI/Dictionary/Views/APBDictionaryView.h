@@ -10,7 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol APBDictionaryViewDelegete <NSObject>
+
+- (void)addTappedWithChinese:(NSString *)chinese pinyin:(NSString *)pinyin english:(NSString *)english;
+
+@end
+
 @interface APBDictionaryView : APBBaseView
+
+@property (nonatomic, weak) id<APBDictionaryViewDelegete> delegate;
 
 @end
 

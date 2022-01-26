@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33BFCABB71276BAA1C5F780B /* Pods_APBChineseLearner_APBChineseLearnerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9322A027EBF758260363257 /* Pods_APBChineseLearner_APBChineseLearnerUITests.framework */; };
-		3C6619593986CBFC021464DD /* Pods_APBChineseLearner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59BF91D655447A2970ED2BCA /* Pods_APBChineseLearner.framework */; };
+		107C663AFAC581D6403DDD9A /* Pods_APBChineseLearner_APBChineseLearnerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB461ECC41C9E4D2036973AE /* Pods_APBChineseLearner_APBChineseLearnerUITests.framework */; };
+		223FD8D28F60CE8811312A1D /* Pods_APBChineseLearnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1324A17F63761F2AB7A484BE /* Pods_APBChineseLearnerTests.framework */; };
+		2D3B5E7BF192878C4BCC8F5D /* Pods_APBChineseLearner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E2BF7DC2B9D70A97901897 /* Pods_APBChineseLearner.framework */; };
+		715D7E8427958EF300439271 /* APBWord+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 715D7E8227958EF300439271 /* APBWord+CoreDataClass.m */; };
+		715D7E8527958EF300439271 /* APBWord+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 715D7E8327958EF300439271 /* APBWord+CoreDataProperties.m */; };
 		71EC7399278AF17D00E7FEF9 /* APBDictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EC7398278AF17D00E7FEF9 /* APBDictionaryViewController.m */; };
 		71EC739E278AF1C400E7FEF9 /* APBDictionaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EC739D278AF1C400E7FEF9 /* APBDictionaryView.m */; };
 		71ED1B7A278A0CDF00415B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ED1B79278A0CDF00415B9A /* AppDelegate.m */; };
@@ -19,7 +22,6 @@
 		71ED1B98278A0CE100415B9A /* APBChineseLearnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ED1B97278A0CE100415B9A /* APBChineseLearnerTests.m */; };
 		71ED1BA2278A0CE100415B9A /* APBChineseLearnerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ED1BA1278A0CE100415B9A /* APBChineseLearnerUITests.m */; };
 		71ED1BA4278A0CE100415B9A /* APBChineseLearnerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ED1BA3278A0CE100415B9A /* APBChineseLearnerUITestsLaunchTests.m */; };
-		CCA6FFA12F715EFA5E7062BA /* Pods_APBChineseLearnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA24D59F1A3713A01709BE9 /* Pods_APBChineseLearnerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F1F4587026D4BD936C12F9C /* Pods-APBChineseLearner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBChineseLearner.release.xcconfig"; path = "Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner.release.xcconfig"; sourceTree = "<group>"; };
-		59BF91D655447A2970ED2BCA /* Pods_APBChineseLearner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APBChineseLearner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6126AAE75C189B765DDFCD30 /* Pods-APBChineseLearner-APBChineseLearnerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBChineseLearner-APBChineseLearnerUITests.debug.xcconfig"; path = "Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		09D2A08B2970D09C05577537 /* Pods-APBChineseLearner-APBChineseLearnerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBChineseLearner-APBChineseLearnerUITests.release.xcconfig"; path = "Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1324A17F63761F2AB7A484BE /* Pods_APBChineseLearnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APBChineseLearnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DB97E267DA0C04703BF185 /* Pods-APBChineseLearnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBChineseLearnerTests.debug.xcconfig"; path = "Target Support Files/Pods-APBChineseLearnerTests/Pods-APBChineseLearnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41E2BF7DC2B9D70A97901897 /* Pods_APBChineseLearner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APBChineseLearner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E08F80B4EF321FB431A99D /* Pods-APBChineseLearnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBChineseLearnerTests.release.xcconfig"; path = "Target Support Files/Pods-APBChineseLearnerTests/Pods-APBChineseLearnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		67B1432BA9177657502EBF70 /* Pods-APBChineseLearner-APBChineseLearnerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBChineseLearner-APBChineseLearnerUITests.debug.xcconfig"; path = "Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		69468561BFBFC88E3FB9611E /* Pods-APBChineseLearner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBChineseLearner.debug.xcconfig"; path = "Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner.debug.xcconfig"; sourceTree = "<group>"; };
+		715D7E8027958EF300439271 /* APBWord+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APBWord+CoreDataProperties.h"; sourceTree = "<group>"; };
+		715D7E8127958EF300439271 /* APBWord+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APBWord+CoreDataClass.h"; sourceTree = "<group>"; };
+		715D7E8227958EF300439271 /* APBWord+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "APBWord+CoreDataClass.m"; sourceTree = "<group>"; };
+		715D7E8327958EF300439271 /* APBWord+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "APBWord+CoreDataProperties.m"; sourceTree = "<group>"; };
 		71EC7397278AF17D00E7FEF9 /* APBDictionaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APBDictionaryViewController.h; sourceTree = "<group>"; };
 		71EC7398278AF17D00E7FEF9 /* APBDictionaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APBDictionaryViewController.m; sourceTree = "<group>"; };
 		71EC739C278AF1C400E7FEF9 /* APBDictionaryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APBDictionaryView.h; sourceTree = "<group>"; };
@@ -60,12 +70,8 @@
 		71ED1B9D278A0CE100415B9A /* APBChineseLearnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APBChineseLearnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71ED1BA1278A0CE100415B9A /* APBChineseLearnerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APBChineseLearnerUITests.m; sourceTree = "<group>"; };
 		71ED1BA3278A0CE100415B9A /* APBChineseLearnerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APBChineseLearnerUITestsLaunchTests.m; sourceTree = "<group>"; };
-		B2043824675D3F537F4CAF26 /* Pods-APBChineseLearnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBChineseLearnerTests.debug.xcconfig"; path = "Target Support Files/Pods-APBChineseLearnerTests/Pods-APBChineseLearnerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BCF2BE7B24942191FB3E99F7 /* Pods-APBChineseLearner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBChineseLearner.debug.xcconfig"; path = "Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner.debug.xcconfig"; sourceTree = "<group>"; };
-		CBA24D59F1A3713A01709BE9 /* Pods_APBChineseLearnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APBChineseLearnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D15F8980A5A9ED51AF198FCC /* Pods-APBChineseLearnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBChineseLearnerTests.release.xcconfig"; path = "Target Support Files/Pods-APBChineseLearnerTests/Pods-APBChineseLearnerTests.release.xcconfig"; sourceTree = "<group>"; };
-		D5EBBACAD4D76F36CD1EDFC4 /* Pods-APBChineseLearner-APBChineseLearnerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBChineseLearner-APBChineseLearnerUITests.release.xcconfig"; path = "Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F9322A027EBF758260363257 /* Pods_APBChineseLearner_APBChineseLearnerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APBChineseLearner_APBChineseLearnerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB461ECC41C9E4D2036973AE /* Pods_APBChineseLearner_APBChineseLearnerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APBChineseLearner_APBChineseLearnerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70C20D925A0B8478D816638 /* Pods-APBChineseLearner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APBChineseLearner.release.xcconfig"; path = "Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C6619593986CBFC021464DD /* Pods_APBChineseLearner.framework in Frameworks */,
+				2D3B5E7BF192878C4BCC8F5D /* Pods_APBChineseLearner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCA6FFA12F715EFA5E7062BA /* Pods_APBChineseLearnerTests.framework in Frameworks */,
+				223FD8D28F60CE8811312A1D /* Pods_APBChineseLearnerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33BFCABB71276BAA1C5F780B /* Pods_APBChineseLearner_APBChineseLearnerUITests.framework in Frameworks */,
+				107C663AFAC581D6403DDD9A /* Pods_APBChineseLearner_APBChineseLearnerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,14 +105,25 @@
 		6F4EAC1E60BEABF91E03C8E0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BCF2BE7B24942191FB3E99F7 /* Pods-APBChineseLearner.debug.xcconfig */,
-				0F1F4587026D4BD936C12F9C /* Pods-APBChineseLearner.release.xcconfig */,
-				6126AAE75C189B765DDFCD30 /* Pods-APBChineseLearner-APBChineseLearnerUITests.debug.xcconfig */,
-				D5EBBACAD4D76F36CD1EDFC4 /* Pods-APBChineseLearner-APBChineseLearnerUITests.release.xcconfig */,
-				B2043824675D3F537F4CAF26 /* Pods-APBChineseLearnerTests.debug.xcconfig */,
-				D15F8980A5A9ED51AF198FCC /* Pods-APBChineseLearnerTests.release.xcconfig */,
+				69468561BFBFC88E3FB9611E /* Pods-APBChineseLearner.debug.xcconfig */,
+				C70C20D925A0B8478D816638 /* Pods-APBChineseLearner.release.xcconfig */,
+				67B1432BA9177657502EBF70 /* Pods-APBChineseLearner-APBChineseLearnerUITests.debug.xcconfig */,
+				09D2A08B2970D09C05577537 /* Pods-APBChineseLearner-APBChineseLearnerUITests.release.xcconfig */,
+				24DB97E267DA0C04703BF185 /* Pods-APBChineseLearnerTests.debug.xcconfig */,
+				61E08F80B4EF321FB431A99D /* Pods-APBChineseLearnerTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		715D7E7927958EB500439271 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				715D7E8127958EF300439271 /* APBWord+CoreDataClass.h */,
+				715D7E8227958EF300439271 /* APBWord+CoreDataClass.m */,
+				715D7E8027958EF300439271 /* APBWord+CoreDataProperties.h */,
+				715D7E8327958EF300439271 /* APBWord+CoreDataProperties.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		71EC7393278AEF3300E7FEF9 /* Supporting Files */ = {
@@ -156,7 +173,7 @@
 				71ED1BA0278A0CE100415B9A /* APBChineseLearnerUITests */,
 				71ED1B76278A0CDF00415B9A /* Products */,
 				6F4EAC1E60BEABF91E03C8E0 /* Pods */,
-				AF8E5004409EBC0F66E07640 /* Frameworks */,
+				DE69837F28B0F04721FEBED6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,6 +192,7 @@
 			children = (
 				71ED1B78278A0CDF00415B9A /* AppDelegate.h */,
 				71ED1B79278A0CDF00415B9A /* AppDelegate.m */,
+				715D7E7927958EB500439271 /* Models */,
 				71EC7393278AEF3300E7FEF9 /* Supporting Files */,
 				71EC7396278AEF9100E7FEF9 /* UI */,
 			);
@@ -198,12 +216,12 @@
 			path = APBChineseLearnerUITests;
 			sourceTree = "<group>";
 		};
-		AF8E5004409EBC0F66E07640 /* Frameworks */ = {
+		DE69837F28B0F04721FEBED6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				59BF91D655447A2970ED2BCA /* Pods_APBChineseLearner.framework */,
-				F9322A027EBF758260363257 /* Pods_APBChineseLearner_APBChineseLearnerUITests.framework */,
-				CBA24D59F1A3713A01709BE9 /* Pods_APBChineseLearnerTests.framework */,
+				41E2BF7DC2B9D70A97901897 /* Pods_APBChineseLearner.framework */,
+				BB461ECC41C9E4D2036973AE /* Pods_APBChineseLearner_APBChineseLearnerUITests.framework */,
+				1324A17F63761F2AB7A484BE /* Pods_APBChineseLearnerTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -215,11 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71ED1BA7278A0CE100415B9A /* Build configuration list for PBXNativeTarget "APBChineseLearner" */;
 			buildPhases = (
-				8810F569ED8707C31D990F23 /* [CP] Check Pods Manifest.lock */,
+				767F7F11313194EB264F28C4 /* [CP] Check Pods Manifest.lock */,
 				71ED1B71278A0CDF00415B9A /* Sources */,
 				71ED1B72278A0CDF00415B9A /* Frameworks */,
 				71ED1B73278A0CDF00415B9A /* Resources */,
-				14BBDC6423E10996798AC241 /* [CP] Embed Pods Frameworks */,
+				FB1D9FF5103B54AA4578722F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71ED1BAA278A0CE100415B9A /* Build configuration list for PBXNativeTarget "APBChineseLearnerTests" */;
 			buildPhases = (
-				80BC464F402C05F0AED298E2 /* [CP] Check Pods Manifest.lock */,
+				02EBECECE6DCA646650FE62B /* [CP] Check Pods Manifest.lock */,
 				71ED1B8F278A0CE100415B9A /* Sources */,
 				71ED1B90278A0CE100415B9A /* Frameworks */,
 				71ED1B91278A0CE100415B9A /* Resources */,
@@ -253,11 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71ED1BAD278A0CE100415B9A /* Build configuration list for PBXNativeTarget "APBChineseLearnerUITests" */;
 			buildPhases = (
-				AE33AED6316DF579C847F5CD /* [CP] Check Pods Manifest.lock */,
+				363AF547A09817E4D2478CC9 /* [CP] Check Pods Manifest.lock */,
 				71ED1B99278A0CE100415B9A /* Sources */,
 				71ED1B9A278A0CE100415B9A /* Frameworks */,
 				71ED1B9B278A0CE100415B9A /* Resources */,
-				74225F7D724121C08ED05556 /* [CP] Embed Pods Frameworks */,
+				8E93907A1D6ED71591450D84 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -338,41 +356,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		14BBDC6423E10996798AC241 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		74225F7D724121C08ED05556 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		80BC464F402C05F0AED298E2 /* [CP] Check Pods Manifest.lock */ = {
+		02EBECECE6DCA646650FE62B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -394,29 +378,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8810F569ED8707C31D990F23 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-APBChineseLearner-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AE33AED6316DF579C847F5CD /* [CP] Check Pods Manifest.lock */ = {
+		363AF547A09817E4D2478CC9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -438,6 +400,62 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		767F7F11313194EB264F28C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APBChineseLearner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E93907A1D6ED71591450D84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner-APBChineseLearnerUITests/Pods-APBChineseLearner-APBChineseLearnerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB1D9FF5103B54AA4578722F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APBChineseLearner/Pods-APBChineseLearner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -446,10 +464,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				71EC7399278AF17D00E7FEF9 /* APBDictionaryViewController.m in Sources */,
+				715D7E8527958EF300439271 /* APBWord+CoreDataProperties.m in Sources */,
 				71ED1B8E278A0CE100415B9A /* main.m in Sources */,
 				71ED1B86278A0CDF00415B9A /* APBChineseLearner.xcdatamodeld in Sources */,
 				71EC739E278AF1C400E7FEF9 /* APBDictionaryView.m in Sources */,
 				71ED1B7A278A0CDF00415B9A /* AppDelegate.m in Sources */,
+				715D7E8427958EF300439271 /* APBWord+CoreDataClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,7 +631,7 @@
 		};
 		71ED1BA8278A0CE100415B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCF2BE7B24942191FB3E99F7 /* Pods-APBChineseLearner.debug.xcconfig */;
+			baseConfigurationReference = 69468561BFBFC88E3FB9611E /* Pods-APBChineseLearner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -619,7 +639,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4N87CRMB5W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = APBChineseLearner/Info.plist;
+				INFOPLIST_FILE = "APBChineseLearner/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -638,7 +658,7 @@
 		};
 		71ED1BA9278A0CE100415B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F1F4587026D4BD936C12F9C /* Pods-APBChineseLearner.release.xcconfig */;
+			baseConfigurationReference = C70C20D925A0B8478D816638 /* Pods-APBChineseLearner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -646,7 +666,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4N87CRMB5W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = APBChineseLearner/Info.plist;
+				INFOPLIST_FILE = "APBChineseLearner/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -665,7 +685,7 @@
 		};
 		71ED1BAB278A0CE100415B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2043824675D3F537F4CAF26 /* Pods-APBChineseLearnerTests.debug.xcconfig */;
+			baseConfigurationReference = 24DB97E267DA0C04703BF185 /* Pods-APBChineseLearnerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -684,7 +704,7 @@
 		};
 		71ED1BAC278A0CE100415B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D15F8980A5A9ED51AF198FCC /* Pods-APBChineseLearnerTests.release.xcconfig */;
+			baseConfigurationReference = 61E08F80B4EF321FB431A99D /* Pods-APBChineseLearnerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -703,7 +723,7 @@
 		};
 		71ED1BAE278A0CE100415B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6126AAE75C189B765DDFCD30 /* Pods-APBChineseLearner-APBChineseLearnerUITests.debug.xcconfig */;
+			baseConfigurationReference = 67B1432BA9177657502EBF70 /* Pods-APBChineseLearner-APBChineseLearnerUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -720,7 +740,7 @@
 		};
 		71ED1BAF278A0CE100415B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5EBBACAD4D76F36CD1EDFC4 /* Pods-APBChineseLearner-APBChineseLearnerUITests.release.xcconfig */;
+			baseConfigurationReference = 09D2A08B2970D09C05577537 /* Pods-APBChineseLearner-APBChineseLearnerUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

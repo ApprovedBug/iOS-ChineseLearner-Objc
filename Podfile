@@ -1,5 +1,4 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '15.0'
 
 source 'https://github.com/ApprovedBug/iOS-Specs.git'
 
@@ -10,6 +9,7 @@ target 'APBChineseLearner' do
   # Pods for APBChineseLearner
 
   pod 'APBFoundation', '0.1.0'
+  pod 'FLKAutoLayout', '1.0.1'
 
   target 'APBChineseLearnerTests' do
     inherit! :search_paths
